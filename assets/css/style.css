@@ -95,3 +95,16 @@ footer div {
 footer a {
     color: var(--secondary-color);
 }
+
+.welcome {
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+   /* padding: 40px 35px;
+    text-align: center;
+    border-bottom: 2px;
+    border-style: solid;
+    border-width: 50%;
+}
