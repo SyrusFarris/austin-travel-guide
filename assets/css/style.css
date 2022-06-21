@@ -17,6 +17,12 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+body section {
+    margin: 0 5px 0 5px;
+    
+
+}
+
 header {
     padding: 20px 35px;
     background-color: var(--secondary-color);
@@ -95,3 +101,69 @@ footer div {
 footer a {
     color: var(--secondary-color);
 }
+
+.things h2 {
+    font-size: 48px;
+    color: var(--primary-color);
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.hotels, .section-base {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding-bottom: 55px;
+    flex: 1;
+
+}
+
+.hotels img, .section-base img {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    margin-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+.hotels img:hover, .section-base img:hover {
+    opacity: 0.5;
+}
+
+.hotels a, .section-base a {
+    font-size: 25px;
+   
+    color: var(--secondary-color);
+    
+   
+}
+
+.things p {
+    line-height: 1.7;
+    color: var(--secondary-color);
+    width: 30%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    
+}
+
+.hotels a:hover, .section-base a:hover {
+    color: var(--primary-color);
+}
+
+
+
+
+
+
+
