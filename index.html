@@ -3,28 +3,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Austin Tour Guide</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
     <meta charset="UTF-8">
 <body>
     <header>
         <h1>Austin Tour Guide</h1>
-        <nav>
-        <!-- Unordered list elements -->
-            <ul>
-            <!-- List item element -->
-            <li>
-                <!-- Anchored element -->
-                <a href="#welcome-to-austin">Welcome To Austin</a>
-            </li>
-            <li>
-                <a href="#things-to-do">Things To Do</a>
-            </li>
-            <li>
-                <a href="#maps">Maps</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-            </ul>
+        <nav class="white" role="navigation">
+            <div class="nav-wrapper container">
+                <!-- Unordered list elements -->
+                <ul class="right hide-on-med-and-down">
+                    <!-- List item element -->
+                    <li>
+                        <!-- Anchored element -->
+                        <a href="#welcome-to-austin">Welcome To Austin</a>
+                    </li>
+                    <li>
+                        <a href="#things-to-do">Things To Do</a>
+                    </li>
+                    <li>
+                        <a href="#maps">Maps</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            <!--  -->
+            </div>
         </nav>
     </header>
 <!---->
@@ -257,7 +262,7 @@
     <section class="contact-area">
        
         <div>
-            <h2 class="contact-title">Contact Us</h2>
+            <h2 id="contact" class="contact-title">Contact Us</h2>
         </div>
             <div class="contact-form">
             <form action="https://formsubmit.co/mitchmarena@yahoo.com" method="POST">
