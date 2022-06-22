@@ -1,7 +1,33 @@
-// 
-npm install rsbmcZVtVYzDADUD3Wmr6EZuIG2vn_UrYbAmPF4Ecrj8E6_THSz6jZFp3E01VymZTVBYpbjSwdiZGcyCMH373QDVq5KhfP_wDGet1H4QqHw_iD2csvsq8IABxV2xYnYx --save;
-
-
+function test() {
+    // retriveing data
+    var name = document.getElementById("contact-name").value;
+    var email = document.getElementById("contact-email").value;
+    var message = document.getElementById("contact-message").value;
+   
+   
+    //storage data
+    var user = localStorage.setItem("name", name);
+    var em = localStorage.setItem("email", email);
+    var mess = localStorage.setItem("message", message);
+   
+   
+    // retreving stored data and using it for calculation
+    var user = localStorage.getItem("name", name);
+    var em = localStorage.getItem("email", email);
+    var mess = localStorage.getItem("message", message);
+   
+    var a, b, c;
+    a = "name";
+    b = "email";
+    c = "message";
+   
+    if (a == user && b == email && c == mess) {
+       alert("Message Sent !");
+    } else {
+       alert("Message Sent !");
+    }
+   
+   }
 
 
 
