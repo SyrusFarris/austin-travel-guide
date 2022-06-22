@@ -102,14 +102,19 @@ footer a {
     color: var(--secondary-color);
 }
 
+// develop
 .things h2 {
     font-size: 38px;
     color: var(--primary-color);
+//
+.welcome {
+// main
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
     width: 50%;
+// develop
 }
 
 .hotels, .section-base {
@@ -218,3 +223,11 @@ footer a {
 }
 
 
+//
+   /* padding: 40px 35px;
+    text-align: center;
+    border-bottom: 2px;
+    border-style: solid;
+    border-width: 50%;
+}
+//main
