@@ -32,7 +32,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
 }
-
+ 
 header h1 {
 font-weight: bold;
 font-size: 36px;
@@ -40,12 +40,12 @@ color: var(--primary-color);
 margin: 0;
 text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
+ 
 header a {
 text-decoration: none;
 color: var(--primary-color);
 }
-
+ 
 header nav {
 margin: 7px 0;
 }
@@ -83,7 +83,7 @@ flex-wrap: wrap;
 position: -webkit-sticky;
 position: sticky;
 }
-
+ 
 header nav ul {
 display: flex;
 flex-wrap: wrap;
@@ -100,12 +100,21 @@ text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
  
 header nav ul li a:hover {
+<<<<<<< HEAD
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+  }
+ 
+=======
 background: var(--primary-color);
 color: var(--secondary-color);
 border-radius: 15px;
 text-shadow: none;
 }
 
+>>>>>>> main
 footer {
 background: var(--primary-color);
 width: 100%;
@@ -129,6 +138,38 @@ text-align: right;
 footer a {
 color: var(--secondary-color);
 }
+<<<<<<< HEAD
+ 
+.things h2 {
+    font-size: 38px;
+    color: var(--primary-color);
+    border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+ 
+.hotels, .section-base {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding-bottom: 55px;
+    flex: 1;
+ 
+}
+ 
+.hotels img, .section-base img {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    margin-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+=======
 
 .things h2 {
 font-size: 38px;
@@ -159,6 +200,7 @@ margin-top: 25px;
 padding-top: 15px;
 padding-bottom: 15px;
 
+>>>>>>> main
 }
  
 .hotels img:hover, .section-base img:hover {
@@ -166,6 +208,25 @@ opacity: 0.5;
 }
  
 .hotels a, .section-base a {
+<<<<<<< HEAD
+    font-size: 25px;
+   
+    color: var(--secondary-color);
+   
+   
+}
+ 
+.things p {
+    line-height: 1.7;
+    color: var(--secondary-color);
+    width: 30%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 5px;
+   
+=======
 font-size: 25px;
 
 color: var(--secondary-color);
@@ -183,6 +244,7 @@ text-align: center;
 padding-top: 0px;
 padding-bottom: 5px;
 
+>>>>>>> main
 }
  
 .hotels a:hover, .section-base a:hover {
@@ -220,6 +282,17 @@ background-color: rgba(255,255,255, 1);
  
  
 .contact-form button {
+<<<<<<< HEAD
+    width: 75%;
+    border: none;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 16px;
+    border-radius: 10px;
+ 
+=======
 width: 75%;
 border: none;
 background: var(--secondary-color);
@@ -229,6 +302,7 @@ padding: 15px 0px;
 font-size: 16px;
 border-radius: 10px;
 
+>>>>>>> main
 }
  
 .contact-form button:hover {
