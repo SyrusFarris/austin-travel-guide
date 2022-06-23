@@ -33,7 +33,30 @@
             </div>
         </nav>
     </header>
-<!---->
+
+    <!-- the DIV that will contain the widget -->
+    <div class="weatherWidget" ></div>
+    <script>
+        window.weatherWidgetConfig =  window.weatherWidgetConfig || [];
+        window.weatherWidgetConfig.push({
+            selector:".weatherWidget",
+            apiKey:"GRKFXHSXHA4SGEQAMWP6RMC9Q", //Sign up for your personal key
+            location:"Austin, TX", //Enter an address
+            unitGroup:"us", //"us" or "metric"
+            forecastDays:5, //how many days forecast to show
+            title:"Austin, TX", //optional title to show in the 
+            showTitle:true, 
+            showConditions:true
+        });
+        
+        (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://www.visualcrossing.com/widgets/forecast-simple/weather-forecast-widget-simple.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+
     <div id="index-banner" class=" parallax-container">
         <div class="section no-pad-bot">
             <div class="container">
@@ -51,7 +74,7 @@
         </div>
         <div class="parallax"><img src="assets/images/city.jpg" alt="Austin at dusk" style="transform: translate3d(-50%, 353.163px, 0px); opacity: 1;"></div>
     </div>
- <!--  -->
+
     <section class="things">
         <h1 id="things-to-do"> Things To Do</h1>
          <h2>Hotels</h2>
