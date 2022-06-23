@@ -165,6 +165,7 @@ color: var(--primary-color);
  
 .contact-area {
 text-align: center;
+float: right;
 }
  
 .contact-area h1 {
@@ -177,11 +178,11 @@ text-align: center;
  
 .contact-form input, .contact-form textarea {
 border: 1px solid #024e76;
-display: inline-block;
+display: inline;
 padding: 7px 15px;
 font-size: 16px;
 color: #024e76;
-width: 75%;
+width: 40%;
 margin-bottom: 15px;
 margin-top: 5px;
 border-radius: 10px;
@@ -193,17 +194,16 @@ background-color: rgba(255,255,255, 1);
 }
  
  
-.contact-form button {
-width: 75%;
-border: none;
+/* .contact-form button {
+width: 90%;
+border: 2px;
 background: var(--secondary-color);
 color: var(--primary-color);
 text-align: center;
-padding: 15px 0px;
+padding: 15px 15px 15px 15px;
 font-size: 16px;
 border-radius: 10px;
-
-}
+} */
  
 .contact-form button:hover {
 color: var(--secondary-color);
@@ -211,11 +211,11 @@ background: var(--primary-color);
 }
  
 .contact-title {
-font-size: 48px;
+font-size: 40px;
 color: var(--primary-color);
 padding-bottom: 20px;
 text-align: center;
-margin: 0 auto 35px auto;
+margin: auto auto 20px auto;
 width: 50%;
 border-bottom: 3px solid;
 }
