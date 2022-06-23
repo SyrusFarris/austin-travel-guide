@@ -27,8 +27,6 @@
                         <a href="#contact">Contact</a>
                     </li>
                 </ul>
-
-            <!--  -->
             
         </nav>
     </header>
@@ -56,7 +54,7 @@
         })();
     </script>
 
-    <div id="index-banner" class=" parallax-container">
+    <div id="index-banner" class="parallax-container">
         <div class="section no-pad-bot">
             <div class="container">
                 <br><br>
@@ -111,7 +109,7 @@
                 </p>
             </div>
             <h2>Shopping</h2>
-            <div class="section-base">
+            <div class="section-base card-panel black lighten-2">
                
                 <p >
                     <a href="https://www.simon.com/mall/the-domain" target="_blank">
@@ -179,7 +177,7 @@
                 </p>
                 </div>
             <h2>Outdoors</h2>
-            <div class="section-base">
+            <div class="section-base card-panel black lighten-2">
                
                 <p >
                     <a href="https://www.austintexas.gov/department/zilker-metropolitan-park" target="_blank">
@@ -247,7 +245,7 @@
                 </p>
                 </div>
             <h2>Museums</h2>
-            <div class="section-base">
+            <div class="section-base card-panel black lighten-2">
                
                 <p >
                     <a href="https://blantonmuseum.org/" target="_blank">
@@ -287,14 +285,14 @@
     </section>
  
     <section>
-        <h1 id="maps"> Maps</h1>
+        <h1 id="maps" class="contact-title"> Maps</h1>
  
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38695.72503176796!2d-97.77446348796786!3d30.273179693976903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b5a014ac8dcf%3A0xcb6f5722a795d039!2sTexas%20Capitol!5e0!3m2!1sen!2sus!4v1655427074294!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
  
     </section>
  
     <section>
-        <h1>Yelp</h1>
+        
        
     </section>
  
@@ -304,13 +302,14 @@
             <h2 id="contact" class="contact-title">Contact Us</h2>
         </div>
             <div class="contact-form">
-                <label for="contact-name">Your Name</label>
-                <input type="text" id="contact-name" placeholder="Your Name" required/>
+                <form>
+                <label for="contact-name"></label>
+                <textarea type="text" id="contact-name" placeholder="Your Name" required></textarea>
      
-                <label for="contact-email">Your Email</label>
-                <input type="text" id="contact-email" placeholder="Your Email" required/>
+                <label for="contact-email"></label>
+                <textarea type="text" id="contact-email" placeholder="Your Email" required></textarea>
      
-                <label for="contact-message">Message</label>
+                <label for="contact-message"></label>
                 <textarea id="contact-message" placeholder="Message" required></textarea>
      
                 <button type="submit" onclick="test()">Submit</button>
