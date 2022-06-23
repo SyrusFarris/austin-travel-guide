@@ -22,7 +22,7 @@ body section {
    
  
 }
-
+/* 
 header {
     padding: none;
     background-color: var(--secondary-color);
@@ -78,7 +78,7 @@ background: var(--primary-color);
 color: var(--secondary-color);
 border-radius: 15px;
 text-shadow: none;
-}
+} */
 
 footer {
 background: var(--primary-color);

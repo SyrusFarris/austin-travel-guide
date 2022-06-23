@@ -6,32 +6,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="./assets/css/style.css" media="screen,projection" />
     <meta charset="UTF-8">
-<body>
-    <header>
-        <h1>Austin Tour Guide</h1>
-        <nav class="nav-wrapper container">
-            <div class="">
-                <ul class="right hide-on-med-and-down">
-                    <!-- List item element -->
-                    <li>
-                        <!-- Anchored element -->
-                        <a href="#welcome-to-austin">Welcome To Austin</a>
-                    </li>
-                    <li>
-                        <a href="#things-to-do">Things To Do</a>
-                    </li>
-                    <li>
-                        <a href="#maps">Maps</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-                </ul>
+
+    <body>
+        <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo right hide-on-med-and-down">Austin Tour Guide</a>
+                    <ul id="nav-mobile" class="left">
+                        <li><a href="#welcome-to-austin">Welcome To Austin</a>/li>
+                        <li><a href="#things-to-do">Things To Do</a>/li>
+                        <li><a href="#maps">Maps</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
             </div>
         </nav>
-    </header>
 
-    <!-- the DIV that will contain the widget -->
+        </header>
+         <!-- the DIV that will contain the widget -->
     <div class="weatherWidget" ></div>
     <script>
         window.weatherWidgetConfig =  window.weatherWidgetConfig || [];
@@ -53,14 +44,14 @@
         (d.head || d.body).appendChild(s);
         })();
     </script>
-
-    <div id="index-banner" class="parallax-container">
+    
+    <div class="parallax-container">
         <div class="section no-pad-bot">
             <div class="container">
                 <br><br>
                 <h1 id="welcome-to-austin" class="header center teal-text text-lighten-2">Welcome to Austin, TX</h1>
                 <div class="row center">
-                    <h5 class="header col s12 light">Explore the Live Music Capital of the World! <br></br> Keep Austin Weird ;)</h5>
+                    <h5 class="header col s12 white-text">Explore the Live Music Capital of the World! <br></br> Keep Austin Weird ;)</h5>
                 </div>
                 <div class="row center">
                     <a href="#things-to-do" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
