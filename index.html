@@ -8,60 +8,62 @@
     <meta charset="UTF-8">
 
     <body>
-        <header>
+        <header class="navbar-fixed">
         <nav>
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo right hide-on-med-and-down">Austin Tour Guide</a>
                     <ul id="nav-mobile" class="left">
-                        <li><a href="#welcome-to-austin">Welcome To Austin</a>/li>
-                        <li><a href="#things-to-do">Things To Do</a>/li>
+                        <li><a href="#welcome-to-austin">Welcome To Austin</a>
+                        <li><a href="#things-to-do">Things To Do</a>
                         <li><a href="#maps">Maps</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
             </div>
         </nav>
-
         </header>
          <!-- the DIV that will contain the widget -->
-    <div class="weatherWidget" ></div>
-    <script>
-        window.weatherWidgetConfig =  window.weatherWidgetConfig || [];
-        window.weatherWidgetConfig.push({
-            selector:".weatherWidget",
-            apiKey:"GRKFXHSXHA4SGEQAMWP6RMC9Q", //Sign up for your personal key
-            location:"Austin, TX", //Enter an address
-            unitGroup:"us", //"us" or "metric"
-            forecastDays:5, //how many days forecast to show
-            title:"Austin, TX", //optional title to show in the 
-            showTitle:true, 
-            showConditions:true
-        });
-        
-        (function() {
-        var d = document, s = d.createElement('script');
-        s.src = 'https://www.visualcrossing.com/widgets/forecast-simple/weather-forecast-widget-simple.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-        })();
-    </script>
-    
-    <div class="parallax-container">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <br><br>
-                <h1 id="welcome-to-austin" class="header center teal-text text-lighten-2">Welcome to Austin, TX</h1>
-                <div class="row center">
-                    <h5 class="header col s12 white-text">Explore the Live Music Capital of the World! <br></br> Keep Austin Weird ;)</h5>
-                </div>
-                <div class="row center">
-                    <a href="#things-to-do" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-                </div>
-                <br><br>
-
+        <div class="row" ></div>
+            <div class="weatherWidget">
+            <script>
+                window.weatherWidgetConfig =  window.weatherWidgetConfig || [];
+                window.weatherWidgetConfig.push({
+                    selector:".weatherWidget",
+                    apiKey:"GRKFXHSXHA4SGEQAMWP6RMC9Q", //Sign up for your personal key
+                    location:"Austin, TX", //Enter an address
+                    unitGroup:"us", //"us" or "metric"
+                    forecastDays:5, //how many days forecast to show
+                    title:"Austin, TX", //optional title to show in the 
+                    showTitle:true, 
+                    showConditions:true
+                });
+                
+                (function() {
+                var d = document, s = d.createElement('script');
+                s.src = 'https://www.visualcrossing.com/widgets/forecast-simple/weather-forecast-widget-simple.js';
+                s.setAttribute('data-timestamp', +new Date());
+                (d.head || d.body).appendChild(s);
+                })();
+            </script>
             </div>
         </div>
-        <div class="parallax"><img src="assets/images/city.jpg" alt="Austin at dusk" style="transform: translate3d(-50%, 353.163px, 0px); opacity: 1;"></div>
-    </div>
+            
+        <div class="parallax-container">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <br><br>
+                    <h1 id="welcome-to-austin" class="header center teal-text text-lighten-2">Welcome to Austin, TX</h1>
+                    <div class="row center">
+                        <h5 class="header col s12 white-text">Explore the Live Music Capital of the World! <br></br> Keep Austin Weird ;)</h5>
+                    </div>
+                    <div class="row center">
+                        <a href="#things-to-do" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+                    </div>
+                    <br><br>
+
+                </div>
+            </div>
+            <div class="parallax"><img src="assets/images/city.jpg" alt="Austin at dusk" style="transform: translate3d(-50%, 353.163px, 0px); opacity: 1;"></div>
+        </div>
 
     <section class="things">
         <h1 id="things-to-do"> Things To Do</h1>
